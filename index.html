@@ -9,10 +9,10 @@
 </head>
 <body>
     <form>
-        <div class="drop-area" id="drop-area" onchange="previewFiles(this.files)">
+        <div class="drop-area" id="drop-area" >
             <h3>Drag and drop an image</h3>
             <p>or</p>
-            <input type="file" id="file" class="drop-area__input" />
+            <input type="file" id="file" class="drop-area__input" onchange="previewFile(this.files[0])" />
             <label for="file" class="button">Upload File</label>
         </div>
     </form>

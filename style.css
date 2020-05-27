@@ -12,7 +12,6 @@ body {
     color: #757575;
     border: 2px dashed #d0d0d0;
     border-radius: 8px;
-    cursor: pointer;
 }
 
 .drop-area.dropping {
